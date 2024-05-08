@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project javascript</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .w-6{
+            width: 50%;
+        }
+         .container{
+            width: 100%;
+            height: 100vh;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+         }
+
+         .basic-calculation-items{
+            width: 550px;
+            height: 550px;
+            padding: 10px;
+            background-color: brown;
+            border-radius: 30px;
+            padding: 50px;
+            font-size: 30px;
+
+         }
+
+         .basic-contant{
+            text-align: center;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 600;
+         }
+         h1{
+            margin-top: 20px;
+         }
+         p{
+            margin-left: 10px;
+         }
+         .pr,.price-rate, .time, .accured-amount, .lnterest{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            padding-top: 24px;
+         }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="basic-calculation-items">
+            <div class="basic-contant">
+                <h1 id="title"></h1>
+                <div class="pr">
+                    <p id="principle"></p>
+                    <p id="principle-amout" ></p>
+                </div>
+
+                <div class="price-rate">
+                    <p id="ratep"></p>
+                <p id="rataamount"></p>
+                </div>
+
+                <div class="time">
+                    <p id="time"></p>
+                    <p id="year"></p>
+                </div>
+
+                <div class="accured-amount">
+                    <p id="accured"></p>
+                    <p id="amount"></p>
+                </div>
+
+                <div class="lnterest">
+                    <p id="Interest"></p>
+                    <p id="integar"></p>
+                </div> 
+                
+            </div>
+        </div> 
+    </div>
+
+    <script src="js/pr1-1.js"></script>
+</body>
+</html>
